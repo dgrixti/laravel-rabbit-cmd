@@ -3,11 +3,11 @@ pipeline {
     stages {
         stage("Build") {
             environment {
-		DB_CONNECTION=mysql
-		DB_HOST=10.116.12.126
+		DB_CONNECTION='mysql'
+		DB_HOST='10.116.12.126'
 		DB_PORT=3306
-		DB_DATABASE=laravel
-		DB_USERNAME=root
+		DB_DATABASE='laravel'
+		DB_USERNAME='root'
 		DB_PASSWORD=
             }
             steps {
@@ -30,4 +30,5 @@ pipeline {
             }
         }
    }
+
 }
