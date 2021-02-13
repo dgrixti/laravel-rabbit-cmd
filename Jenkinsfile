@@ -8,7 +8,7 @@ pipeline {
 		DB_PORT=3306
 		DB_DATABASE='laravel'
 		DB_USERNAME='root'
-		DB_PASSWORD=
+		DB_PASSWORD=''
             }
             steps {
                 sh 'php --version'
